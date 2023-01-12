@@ -1,13 +1,13 @@
-#Project_GitHub_User_Search_app_vue 本專案練習主要為建立查詢 GitHub 用戶資料 APP
+# Project_GitHub_User_Search_app_vue 本專案練習主要為建立查詢 GitHub 用戶資料 APP
 
-##涉及技術如下:
+## 涉及技術如下:
 
 1. HTML
 2. CSS
 3. Javascript
 4. Vue
 
-##亮點包含:
+## 亮點包含:
 
 1. Axios 發送請求
 2. API 串接
