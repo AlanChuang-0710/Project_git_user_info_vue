@@ -1,28 +1,47 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <Search></Search>
+    <List></List>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import List from "./components/List.vue";
+import Search from "./components/Search.vue";
 
 export default {
-  name: 'App',
+  name: "App",
+
   components: {
-    HelloWorld
-  }
-}
+    Search,
+    List,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: 0.75rem;
+  margin-bottom: 2rem;
+  border: 1px solid #efefef;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+.card > img {
+  margin-bottom: 0.75rem;
+  border-radius: 100px;
+}
+
+.card-text {
+  font-size: 85%;
 }
 </style>
